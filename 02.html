@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="campoTexto" value="">
+    <button onclick="mostrarValor()">Mostrar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function mostrarValor() {
+            var valor = document.getElementById("campoTexto").value
+            document.getElementById("resultado").innerHTML = valor
+        }
+    </script>
+
+</body>
+</html>

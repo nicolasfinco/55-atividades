@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="dataHora"></p>
+    <button onclick="dataHora()" id="botao">Clique</button>
+
+    <script>
+
+        function dataHora() {
+            var data = new Date()
+
+            var hoje = data.getDate() + "/" + (data.getMonth() + 1) + "/" + data.getFullYear()
+            alert(hoje)
+
+            var horas = data.getHours() + ":" + data.getMinutes()
+            alert(horas)
+                
+        }
+
+            
+
+            
+    </script>
+</body>
+</html>

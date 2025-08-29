@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="meuParagrafo">Este é um parágrafo com ID.</p>
+
+    <button onclick="mostrarID()">Mostrar ID do Parágrafo</button>
+
+
+
+    <script>
+
+        function mostrarID() {
+            // Seleciona o elemento pelo id
+            const elemento = document.getElementById('meuParagrafo')
+            // Mostra o ID em um alerta
+            alert('O ID do elemento é: ' + elemento.id)
+        }
+    </script>
+</body>
+</html>
