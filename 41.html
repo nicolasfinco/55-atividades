@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+          .circulo{
+    width: 150px;
+    height: 150px;
+    background-color: #3498db; /* azul */
+    border-radius: 50%;
+  }
+    </style>
+</head>
+<body>
+    
+    <div id="d" class="circulo"></div>
+    <button onclick="verde()" id="v">VERDE</button>
+    <button onclick="amarelo()" id="ama">AMARELO</button>
+    <button onclick="vermelho()" id="vm">VERMELHO</button>
+
+    <script>
+       
+       function verde() {
+
+        document.getElementById("d").style.backgroundColor = "green"
+        
+       }
+
+       
+       function vermelho() {
+
+        document.getElementById("d").style.backgroundColor = "red"
+        
+       }
+
+        function amarelo() {
+
+        document.getElementById("d").style.backgroundColor = "yellow"
+        
+       }
+    </script>
+    
+</body>
+</html>
